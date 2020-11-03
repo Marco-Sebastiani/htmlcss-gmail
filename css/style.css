@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg');
+  background-size: cover;
+}
+
+/* HEADER */
+
+.container{
+  width: 900px;
+  margin:auto;
+}
+
+hr{
+  color: #fff;
+}
+
+.logo{
+  height: 80px;
+  vertical-align: middle;
+}
+
+.linea{
+  color:#fff;
+}
+
+h1{
+  display: inline;
+  font-size: 22px;
+  color: #fff;
+}
+
+.header-bottom{
+  margin-top:10px;
+}
+
+.radius{
+  border-radius: 5px;
+  border-style: none;
+
+}
+
+.count{
+  color: #fff;
+  font-size: 25px;
+  margin-top: 10px;
+  line-height: 50px;
+}
+
+.round{
+  width: 50px;
+  background-color: #ecb213;
+  border-radius: 50%;
+  padding:12px;
+  vertical-align: middle;
+}
+
+/* /HEADER */
+
+/* MAIN */
+.email{
+  background-color:#dde;
+}
+
+.email-row{
+  border:1px solid #000;
+  padding:2px;
+
+}
+
+.email-row p {
+  display: inline;
+}
+.email-row span{
+  color:#aaa;
+}
+
+.read{
+  background-color: #fff;
+}
+/* /MAIN */
+
+/* FOOTER */
+footer{
+  text-align: center;
+  color:#fff
+}
+
+footer  span{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.italic{
+  font-style: italic;
+  font-weight: 700;
+}
+/* /FOOTER */
